@@ -1,0 +1,20 @@
+// Button Style
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: $font-med;
+  color: $white;
+  cursor: pointer;
+  background-color: $primary;
+  transition: all 0.3s ease-out;
+  &:hover {
+    padding: 6px 18px;
+    background-color: transparent;
+    color: $white;
+    border-radius: 4px;
+    border: 2px solid $primary;
+  }
+}
